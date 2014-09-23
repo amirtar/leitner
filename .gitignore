@@ -1,0 +1,10 @@
+#The text files containing raw data should not be considered.
+*.txt
+#The local Database should not be considered for the files
+*.db
+#The online database files that kept locally should not be affected
+*.db2
+#the practice folder should be ignored in the original folder
+practice/
+#mm.py is an additional file to convert to online database. It should not be used in the repo
+mm.py
